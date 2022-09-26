@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Path of Light Yoga Studio :: Contact</title>
+  <meta name="description" content="This is the contact page where you can contacts the yoga
+class for any more information or help.">
+  <link rel="stylesheet" href="yoga.css">
+</head>
+<body>
+<nav>
+  <ul>
+    <li><a href="index.html">Home</a></li>
+    <li><a href="classes.html">Classes</a></li>
+    <li><a href="schedule.html">Schedule</a></li>
+    <li><a href="contact.html">Contact</a></li>
+  </ul>
+</nav>
+<header class="home">
+  <h1><a href="index.html">Path of Light Yoga Studio</a></h1>
+</header>
+
+<div id="wrapper">
+  <main>
+
+    <h2>Contact Path of Light Yoga Studio</h2>
+    <p>Required fields are marked with an asterisk *.</p>
+
+    <form method="post" action="https://webdevbasics.net/scripts/yoga.php">
+      <label for="myName">* Name:<input type="text" name="myName" id="myName"></label>
+      <label for="myEmail">* Email:<input type="email" name="myEmail" id="myEmail"></label>
+      <label for="hear">How did you hear about us?<input type="text" list="hear"></label>
+      <datalist id="hear">
+        <option>Google</option>
+        <option>Bing</option>
+        <option>Facebook</option>
+        <option>Friend</option>
+        <option>Radio Ad</option>
+      </datalist>
+      <label for="myComments">* Comments:<input type="text" name="myComments" id="myComments" rows="2" cols="20"></label>
+      <input type="submit" value="Send Now">
+    </form>
+
+  </main>
+  <footer>
+    Copyright &copy; 2020 Path of Light Yoga Studio <br> email@email.com
+    <a href="privacy.html">Our Privacy Policy</a>
+  </footer>
+</div>
+</body>
+</html>
